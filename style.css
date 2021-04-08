@@ -1,0 +1,39 @@
+.jumbotron-hero
+{
+    height: 500px;
+
+    background-image: url("/THP/Jour3/img/surf.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.containers-max
+{
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+
+.navbar
+{
+    z-index: 100000000;
+}
+
+.card
+{
+    max-width: 100;
+    height: auto;
+}
+
+@media (max-width 2500px ) {
+ 
+    .card-deck {
+        flex direction: column;
+    }
+        
+    
+}
+
+    
